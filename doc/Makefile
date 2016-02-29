@@ -8,7 +8,8 @@
 
 XSLTPROC = xsltproc
 XSLTFLAGS = --xinclude
-STYLESHEET = /usr/share/sgml/docbook/xsl-stylesheets/xhtml/chunk.xsl
+# STYLESHEET = /usr/share/sgml/docbook/xsl-stylesheets/xhtml/chunk.xsl
+STYLESHEET = /usr/local/Cellar/docbook-xsl/1.78.1_1/docbook-xsl/xhtml/chunk.xsl
 MKDIR = mkdir -p
 INPUTS = index.xml preface.xml reference.xml license.xml
 
